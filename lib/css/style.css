@@ -27,7 +27,7 @@ h1 {
 
 h2{
     font-size: 123.1%;
-    color: #000;
+    color: #394F61;
 }
 
 h3 {
@@ -551,8 +551,7 @@ p {
 
 .primary {
     margin-top: 10px;
-    margin-bottom: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 ol {
@@ -772,7 +771,7 @@ input.ds-password-field.error {
 .ds-form-list legend{
     font-size: 182%;
     margin-bottom: 15px;
-    color: #000;
+    color: #394F61;
 }
 
 .ds-form-item legend {
@@ -800,7 +799,7 @@ li.ds-form-item.last {
 li.ds-form-item .ds-form-label{
     font-weight: bold;
     font-size: 110%;
-    color: #000;
+    color: #394F61;
 }
 
 li.ds-form-item label.ds-composite-component{
@@ -1425,7 +1424,7 @@ table#aspect_artifactbrowser_AdvancedSearch_table_search-query.ds-table {
 table#aspect_artifactbrowser_AdvancedSearch_table_search-query.ds-table th {
     text-align: left;
     border-bottom: 1px #d0d0d0 solid;
-    color: #000;
+    color: #394F61;
 }
 
 th.ds-table-header-cell.odd, th.ds-table-header-cell.even{
@@ -1625,7 +1624,7 @@ ul#aspect_administrative_authorization_AuthorizationMain_list_containerList.ds-s
     margin: 20px 0 5px 0;
     display: block;
     font-size: 110%;
-    color: #000;
+    color: #394F61;
     }
     
 ul#aspect_administrative_authorization_AuthorizationMain_list_containerList.ds-simple-list li span.bold a:hover{
@@ -1649,7 +1648,7 @@ ul#aspect_administrative_WithdrawnItems_list_jump-list.ds-simple-list.alphabet a
     }   
     
 div#aspect_artifactbrowser_CommunityBrowser_div_comunity-browser.ds-static-div.primary ul li a{
-    /*color: #000;*/
+    /*color: #394F61;*/
 }
 
 div#aspect_artifactbrowser_CommunityBrowser_div_comunity-browser.ds-static-div.primary ul li a:hover{
@@ -1710,4 +1709,31 @@ div#uhl-front-content.ds-static-div {
     text-transform: uppercase;
     color: #555;
     text-shadow: #fff 0px 1px 0;
+}
+
+.icon-button{
+    padding:4px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: #73A0C5;
+    border: 1px solid #1F3F5E;
+    text-indent: -1000px;
+    width: 22px;
+    height: 22px;
+    display:block;
+    /*Required for IE*/
+    font-size: 0;
+    line-height: 0;
+}
+
+.icon-button.arrowUp{
+    background-image: url(../../images/arrow_up_ffffff_16x16.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icon-button.arrowDown{
+    background-image: url(../../images/arrow_down_ffffff_16x16.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
